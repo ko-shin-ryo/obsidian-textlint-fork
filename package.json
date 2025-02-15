@@ -1,5 +1,5 @@
 {
-  "name": "obsidian-textlint",
+  "name": "obsidian-textlint-fork",
   "version": "2.1.3",
   "description": "This is a plugin for Obsidian (https://obsidian.md) that integrates textlint",
   "main": "main.js",
