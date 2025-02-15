@@ -136,10 +136,12 @@ export default class TextlintPlugin extends Plugin {
           return;
         }
         const leaf = this.app.workspace.getRightLeaf(false);
-        await leaf.setViewState({
-          type: VIEW_TYPE_TEXTLINT_DIAGNOSTICS,
-          active: true,
-        });
+        if (leaf) {
+          await leaf.setViewState({
+            type: VIEW_TYPE_TEXTLINT_DIAGNOSTICS,
+            active: true,
+          });
+        }
         const activeLeaf = this.app.workspace.getMostRecentLeaf();
         if (activeLeaf) {
           this.app.workspace.setActiveLeaf(activeLeaf);
