@@ -1,5 +1,6 @@
 > [!IMPORTANT]
 > これは[hdykokd/obsidian-textlint: A plugin for Obsidian that integrates textlint](https://github.com/hdykokd/obsidian-textlint)からフォークしたリポジトリです。
+> 
 > オリジナルから必要最小限のバグ修正と依存関係の更新のみ行います。
 
 # Obsidian textlint

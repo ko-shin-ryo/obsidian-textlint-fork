@@ -25,4 +25,5 @@ textlint-builder/*-lock.json
 textlint-builder/worker
 textlint-builder/my-packages.json
 textlint-builder/my-rc.json
-dist
+dist/*
+!dist/.gitkeep
