@@ -201,6 +201,7 @@ export default class TextlintPlugin extends Plugin {
   getDiagnosticView() {
     const leaf = this.getDiagnosticViewLeaf();
     if (!leaf) return;
+    if (leaf.isDeferred) leaf.loadIfDeferred();
     return leaf.view as TextlintDiagnosticView;
   }
 
